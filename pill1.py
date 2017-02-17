@@ -30,6 +30,7 @@ def test3():
 def test4():
 	print("Jetzt, verpasst")
 	textLabel.config(text='Naechste Einnahme: Jetzt', foreground='DarkRed')
+	os.system("sudo python sms.py")
         return urllib.urlopen('http://baitmain.de/ipill')
 def test5():
         print("Zeit geaendert")
